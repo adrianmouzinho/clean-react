@@ -1,4 +1,4 @@
-import type { Account } from '../entities/account'
+import type { Account } from '@/domain/entities/account'
 
 export type AuthenticationParams = {
 	email: string
