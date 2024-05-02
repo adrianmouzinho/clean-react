@@ -1,22 +1,24 @@
 {
-  "name": "clean-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@biomejs/biome": "1.7.2",
-    "@types/node": "^20.12.8",
-    "git-commit-msg-linter": "^5.0.7",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "typescript": "^5.4.5"
-  }
+	"name": "clean-react",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "vitest",
+		"prepare": "husky"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.7.2",
+		"@types/node": "^20.12.8",
+		"git-commit-msg-linter": "^5.0.7",
+		"happy-dom": "^14.7.1",
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.2",
+		"typescript": "^5.4.5",
+		"vitest": "^1.5.3"
+	}
 }
