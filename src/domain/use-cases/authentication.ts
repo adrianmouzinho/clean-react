@@ -1,6 +1,6 @@
 import type { Account } from '../entities/account'
 
-type AuthenticationParams = {
+export type AuthenticationParams = {
 	email: string
 	password: string
 }
