@@ -8,8 +8,7 @@ export enum HttpStatusCode {
 	serverError = 500,
 }
 
-export type HttpResponse = {
+export type HttpResponse<T> = {
 	statusCode: HttpStatusCode
-	// biome-ignore lint/suspicious/noExplicitAny: body should be any
-	body?: any
+	body?: T
 }
