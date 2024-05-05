@@ -6,9 +6,9 @@
 	"type": "module",
 	"scripts": {
 		"test": "vitest --passWithNoTests",
-		"test:watch": "vitest watch",
-		"test:staged": "vitest related --run",
-		"test:ci": "vitest run --coverage",
+		"test:watch": "vitest --passWithNoTests watch",
+		"test:staged": "vitest --passWithNoTests related --run",
+		"test:ci": "vitest --passWithNoTests run --coverage",
 		"prepare": "husky"
 	},
 	"keywords": [],
