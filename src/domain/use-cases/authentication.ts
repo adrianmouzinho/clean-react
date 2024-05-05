@@ -1,10 +1,10 @@
 import type { Account } from '@/domain/entities/account'
 
-export type AuthenticationParams = {
+export type AuthenticationCredentials = {
 	email: string
 	password: string
 }
 
 export interface Authentication {
-	auth(params: AuthenticationParams): Promise<Account>
+	authenticate(credentials: AuthenticationCredentials): Promise<Account>
 }
